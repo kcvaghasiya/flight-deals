@@ -43,10 +43,12 @@ The goal for this step is to add the missing IATA codes for each city to the Goo
 3. Send an SMS using Twilio OR send email to listed customer email in google sheet
    1. Send an SMS using Twilio
       The final step is to check if any of the flights found are cheaper than the Lowest Price listed in the Google Sheet. If so, then we should use the [Twilio API](https://www.twilio.com/docs/sms/quickstart/python) to send an SMS with enough information to book the flight. 
+
       ![twilio-sms](twilio-sms.png)
       
-   2. Send email to listed customer email in google sheet
+   3. Send email to listed customer email in google sheet
       Customer will register via their name and email. These data will be store in our Google sheet. If flight found cheper than we will send email with our message that we have found cheper fligt with date and price.
+
       ![user_emails](sheety-user-end.png)
 
       ![Flight_mail](flight-mail.png)
