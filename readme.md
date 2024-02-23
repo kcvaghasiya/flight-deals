@@ -48,6 +48,8 @@ The goal for this step is to add the missing IATA codes for each city to the Goo
       
    3. Send email to listed customer email in google sheet
       Customer will register via their name and email. These data will be store in our Google sheet. If flight found cheper than we will send email with our message that we have found cheper fligt with date and price.
+  
+      ![user-register](flight-user-register.png)
 
       ![user_emails](sheety-user-end.png)
 
